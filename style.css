@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(https://cdn.pixabay.com/video/2020/05/06/38268-415950877_tiny.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+#app {
+    max-width: 880px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-inline: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 125px;
+    border-radius: 20px;
+}
+ 
+.hidden {
+    display: none;
+}
+ 
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #0056b3;
+}
+
+#perguntas{
+    font-size: 20px;
+    font-family: Arial;
+    
+}
+
+label {
+    padding: 20px;
+}
+
+#divisao{
+    border: solid 3px rgba(0, 0, 0, 0.259);
+    border-radius: 25px;
+    box-shadow: 6px 6px rgba(128, 128, 128, 0.196);
+    margin: auto 0;
+    padding: 15px;
+    padding-top: 0px;
+    background-color: #dfdfdf85;
+}
+
+h2 {
+    padding: 20px;
+    padding-top: 30px;
+}
+
+#instructions{
+    padding: 20px;
+    padding-top: 0px ;
+}
+#result{
+    padding: 20px;
+    padding-top: 0px ;
+}
+
+#questions-part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#questions-part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#escolhas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    height: 100px;
+    font-size: auto;
+    color: #000000;
+}
+
+#part1{
+    padding: 20px;
+    padding-top: 0px;
+}
+
+#part2{
+    padding: 20px;
+    padding-top: 0px;
+}
+
+#instru{
+    padding: 10px;
+    padding-top: 0px;
+}
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    border: solid 3px black;
+    height: 12vh;
+    margin: -20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#creditos{
+    position: absolute;
+    left: 75%;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.Insta:link{
+    color: #007bffca;
+    text-decoration: none;
+}
+
+.Insta:visited{
+    color: #7118e5ca;
+}
+
+.Insta:hover{
+    color: #ee27e8ea;
+
+}
+
+#logo{
+    width: 7vw;
+    padding-left: 35px;
+}
+
+#titulo{
+    padding-left: 35px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
